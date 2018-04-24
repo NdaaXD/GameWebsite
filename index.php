@@ -28,11 +28,15 @@ if(isset($_SESSION['id_member'])){
 
     <?php include 'banner.php'; ?>
 
-    <img src="images/banner.jpg" style="height: 100%; width: 80%; margin-left: 10%; margin-right: 10%">
+    <img src="images/banner.jpg" style="height: 100%; width: 80%; margin-left: 10%; margin-right: 10%; margin-bottom: 5%">
 
     <div class="container">
 
-        <?php include 'product-latest.php'; ?>
+        <?php 
+
+        // include 'product-latest.php'; 
+
+        ?>
         
     </div>
 

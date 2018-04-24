@@ -8,20 +8,20 @@
                         ?>
                         <h1 class="display-4 text-center mt-4">Selamat Datang di Toko Game Murah</h1>
                         <p class="lead text-center">Cuma di sini yang menyediakan game berkualitas bos harga anak kos</p>
-                        <?
+                        <?php
                     }
                     else{
                         ?>
                         <h1 class="display-4 text-center mt-4">Selamat Datang di Management Toko Game</h1>
                         <p class="lead text-center">Silahkan akses menu yang berada di bagian atas</p>
-                        <?
+                        <?php
                     }
                 }
                 else{
                     ?>
                     <h1 class="display-4 text-center mt-4">Selamat Datang di Toko Game Murah</h1>
                     <p class="lead text-center">Cuma di sini yang menyediakan game berkualitas bos harga anak kos</p>
-                    <?
+                    <?php
                 }
 
     			?>

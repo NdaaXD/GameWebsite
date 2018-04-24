@@ -30,9 +30,11 @@ if(isset($_SESSION['id_member'])){
 
         <?php include 'search.php'; ?>
 
-        <img src="images/banner.jpg" style="height: 100%; width: 80%; margin-left: 10%; margin-right: 10%">
+        <!-- <img src="images/banner.jpg" style="height: 100%; width: 80%; margin-left: 10%; margin-right: 10%"> -->
 
         <?php include 'product-all.php'; ?>
+
+        <?php include 'cart.php'; ?>
         
     </div>
 

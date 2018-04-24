@@ -11,7 +11,6 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-link"><a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a></li>
 				<li class="nav-link"><a class="nav-link" href="product.php">Product</a></li>
-				<li class="nav-link"><a class="nav-link" href="#">Cart</a></li>
 				<?php
 				if(@$_SESSION['level']=="user"){
 					$id=$_SESSION['id'];
@@ -25,7 +24,7 @@
 					<li class="nav-link dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hi, <b><?php echo $nama_pelanggan; ?></b></a>
 						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-							<a class="dropdown-item" href="dashboard.php">My Transaction</a>
+							<a class="dropdown-item" href="my-transaction.php">My Transaction</a>
 	                        <a class="dropdown-item" href="logout.php">Logout</a>
 						</div>
 					</li>

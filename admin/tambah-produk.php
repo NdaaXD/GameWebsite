@@ -34,7 +34,7 @@ if(isset($_POST['edit_produk'])) {
     $harga=$_POST['harga'];
     $image_game = rand(1000,100000)."-".$_FILES['image_game']['name'];
     $image_loc = $_FILES['image_game']['tmp_name'];
-    $folder="../images/game/";
+    $folder="../images/games/";
     move_uploaded_file($image_loc,$folder.$image_game);
 
     $hasil=mysql_query("UPDATE tb_produk SET nama_game='$nama_game' ,id_kategori='$id_kategori', jumlah_dvd='$jumlah_dvd', harga='$harga', image_game='$image_game' WHERE id_game='$id_produk'");

@@ -30,12 +30,13 @@ if(isset($_GET['hapus'])) {
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                             <tr>
-                                <th width="10%">No.</th>
+                                <th width="5%">No.</th>
                                 <th width="10%">ID Game</th>
                                 <th>Nama Game</th>
                                 <th>Kategori</th>
                                 <th>Jumlah DVD</th>
                                 <th>Harga</th>
+                                <th>Image</th>
                                 <th width="20%">&nbsp;Action&nbsp;</th>
                             </tr>
                         </thead>
@@ -58,6 +59,7 @@ if(isset($_GET['hapus'])) {
                                 ?></td>
                                 <td><?php echo $data['jumlah_dvd']; ?></td>
                                 <td><?php echo $data['harga']; ?></td>
+                                <td><?php echo $data['image_game']; ?></td>
                                 <td>
                                     <a class="btn btn-primary" href="manage.php?tambah=tambah-produk&id_produk=<?php echo $data['id_game'];?>">
                                         <i class="glyphicon glyphicon-pencil"></i>Ubah

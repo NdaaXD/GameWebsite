@@ -7,4 +7,10 @@
         </div>
     </div>
     <button type="submit" class="btn btn-primary" id="edit">Search</button>
+    <!-- <button class="btn btn-danger" type="button" onclick="cart()">Cart<span class="badge">(4)</span></button>
+    <script>
+		function cart(){
+		     location.href = "#cart";
+		}
+	</script> -->
 </form>
